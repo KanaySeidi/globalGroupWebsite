@@ -1,6 +1,7 @@
 import React from "react";
 import { imgImp } from "../helpers/imgImports";
 import { introCard } from "../helpers/introCards";
+import Shopping from "../components/Nadia/Shopping";
 
 const { intro } = imgImp;
 
@@ -36,6 +37,7 @@ function HomePage() {
             </div>
           ))}
         </div>
+        <Shopping />
       </div>
     </>
   );
