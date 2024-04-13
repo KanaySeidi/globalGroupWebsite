@@ -1,6 +1,8 @@
 import React from "react";
 import { imgImp } from "../helpers/imgImports";
 import { introCard } from "../helpers/introCards";
+import Discover from "../components/Malika/Discover";
+import SliderPage from "../components/Malika/SliderPage";
 
 const { intro } = imgImp;
 
@@ -36,6 +38,8 @@ function HomePage() {
             </div>
           ))}
         </div>
+        <Discover/>
+        <SliderPage/>
       </div>
     </>
   );
