@@ -2,6 +2,9 @@ import React from "react";
 import { imgImp } from "../helpers/imgImports";
 import { introCard } from "../helpers/introCards";
 import Shopping from "../components/Nadia/Shopping";
+import Visa from "../components/Anjelina/Visa";
+import Visa2 from "../components/Anjelina/Visa2";
+
 
 const { intro } = imgImp;
 
@@ -38,6 +41,8 @@ function HomePage() {
           ))}
         </div>
         <Shopping />
+          <Visa />
+          <Visa2/>
       </div>
     </>
   );
