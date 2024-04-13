@@ -1,6 +1,8 @@
 import React from "react";
 import { imgImp } from "../helpers/imgImports";
 import { introCard } from "../helpers/introCards";
+import Visa from "../components/Anjelina/Visa";
+import Visa2 from "../components/Anjelina/Visa2";
 
 const { intro } = imgImp;
 
@@ -36,6 +38,8 @@ function HomePage() {
             </div>
           ))}
         </div>
+          <Visa />
+          <Visa2/>
       </div>
     </>
   );
