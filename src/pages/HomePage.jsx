@@ -1,6 +1,7 @@
 import React from "react";
 import { imgImp } from "../helpers/imgImports";
 import { introCard } from "../helpers/introCards";
+import KlCard from "../components/Almaz/KlCard";
 
 const { intro } = imgImp;
 
@@ -36,6 +37,7 @@ function HomePage() {
             </div>
           ))}
         </div>
+        <KlCard/>
       </div>
     </>
   );
