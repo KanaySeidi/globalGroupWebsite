@@ -3,8 +3,10 @@ import { imgImp } from "../helpers/imgImports";
 import { introCard } from "../helpers/introCards";
 import Discover from "../components/Malika/Discover";
 import SliderPage from "../components/Malika/SliderPage";
+import Shopping from "../components/Nadia/Shopping";
 import Visa from "../components/Anjelina/Visa";
 import Visa2 from "../components/Anjelina/Visa2";
+
 
 const { intro } = imgImp;
 
@@ -40,8 +42,9 @@ function HomePage() {
             </div>
           ))}
         </div>
-        <Discover/>
-        <SliderPage/>
+        <Discover />
+        <Shopping />
+        <SliderPage />
           <Visa />
           <Visa2/>
       </div>
